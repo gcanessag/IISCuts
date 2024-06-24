@@ -1,3 +1,4 @@
 *
 !.gitignore
-!.IIS*
+!.IIStest_0.cor
+!.IIStest_0.sto
