@@ -1,0 +1,463 @@
+python 2bab.py 10 2000 0
+Loading file scp41.txt...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 20230 rows, 3000 columns and 424706 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 54 columns
+Presolve time: 0.76s
+Presolved: 20230 rows, 2946 columns, 417829 nonzeros
+Variable types: 0 continuous, 2946 integer (2946 binary)
+Presolved: 2946 rows, 23176 columns, 420775 nonzeros
+
+
+Root relaxation: objective 3.978824e+02, 6945 iterations, 1.80 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  397.88235    0  154 6147.00000  397.88235  93.5%     -    2s
+H    0     0                     398.0000000  397.88235  0.03%     -    2s
+
+Explored 0 nodes (6993 simplex iterations) in 2.90 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 398 6147 
+Pool objective bound 398
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.980000000000e+02, best bound 3.980000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 20596 rows, 3000 columns and 431014 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 53 columns
+Presolve time: 0.74s
+Presolved: 20596 rows, 2947 columns, 423718 nonzeros
+Variable types: 0 continuous, 2947 integer (2947 binary)
+Presolved: 2947 rows, 23543 columns, 426665 nonzeros
+
+
+Root relaxation: objective 4.086389e+02, 11303 iterations, 3.34 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  408.63892    0 2056 6147.00000  408.63892  93.4%     -    4s
+H    0     0                     437.0000000  408.63892  6.49%     -    4s
+H    0     0                     429.0000000  408.63892  4.75%     -    4s
+H    0     0                     427.0000000  408.63892  4.30%     -    4s
+H    0     0                     412.0000000  408.63892  0.82%     -    7s
+H    0     0                     411.0000000  408.63892  0.57%     -    7s
+     0     0  408.73056    0 2056  411.00000  408.73056  0.55%     -    7s
+     0     0  408.73056    0 2046  411.00000  408.73056  0.55%     -   10s
+     0     0  409.91091    0 1845  411.00000  409.91091  0.26%     -   12s
+     0     0     cutoff    0       411.00000  411.00000  0.00%     -   13s
+
+Cutting planes:
+  Clique: 1
+
+Explored 0 nodes (21054 simplex iterations) in 13.05 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 6: 411 412 427 ... 6147
+Pool objective bound 411
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.110000000000e+02, best bound 4.110000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 18701 rows, 3000 columns and 394179 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 52 columns
+Presolve time: 0.65s
+Presolved: 18701 rows, 2948 columns, 387243 nonzeros
+Variable types: 0 continuous, 2948 integer (2948 binary)
+Presolved: 2948 rows, 21649 columns, 390191 nonzeros
+
+
+Root relaxation: objective 3.972717e+02, 7316 iterations, 1.77 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  397.27168    0  174 6147.00000  397.27168  93.5%     -    2s
+H    0     0                     398.0000000  397.27168  0.18%     -    2s
+
+Explored 0 nodes (7324 simplex iterations) in 2.70 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 398 6147 
+Pool objective bound 398
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.980000000000e+02, best bound 3.980000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 17558 rows, 3000 columns and 373486 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 47 columns
+Presolve time: 0.62s
+Presolved: 17558 rows, 2953 columns, 369639 nonzeros
+Variable types: 0 continuous, 2953 integer (2953 binary)
+Presolved: 2953 rows, 20511 columns, 372592 nonzeros
+
+
+Root relaxation: objective 3.967619e+02, 5959 iterations, 1.39 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  396.76190    0  190 6147.00000  396.76190  93.5%     -    2s
+H    0     0                     398.0000000  396.76190  0.31%     -    2s
+     0     0  396.92776    0 1808  398.00000  396.92776  0.27%     -    3s
+
+Cutting planes:
+  Zero half: 1
+
+Explored 0 nodes (6828 simplex iterations) in 4.37 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 398 6147 
+Pool objective bound 398
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.980000000000e+02, best bound 3.980000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 19517 rows, 3000 columns and 411036 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 59 columns
+Presolve time: 0.70s
+Presolved: 19517 rows, 2941 columns, 404307 nonzeros
+Variable types: 0 continuous, 2941 integer (2941 binary)
+Presolved: 2941 rows, 22458 columns, 407248 nonzeros
+
+
+Root relaxation: objective 3.954719e+02, 9209 iterations, 2.80 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  395.47191    0  179 6147.00000  395.47191  93.6%     -    3s
+H    0     0                     398.0000000  395.47191  0.64%     -    3s
+     0     0  395.58591    0 2056  398.00000  395.58591  0.61%     -    4s
+     0     0  396.00847    0 1766  398.00000  396.00847  0.50%     -    7s
+
+Cutting planes:
+  Gomory: 1
+  Clique: 173
+
+Explored 0 nodes (12126 simplex iterations) in 8.02 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 398 6147 
+Pool objective bound 398
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.980000000000e+02, best bound 3.980000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 19922 rows, 3000 columns and 423286 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 56 columns
+Presolve time: 0.73s
+Presolved: 19922 rows, 2944 columns, 416799 nonzeros
+Variable types: 0 continuous, 2944 integer (2944 binary)
+Presolved: 2944 rows, 22866 columns, 419743 nonzeros
+
+
+Root relaxation: objective 3.978839e+02, 7106 iterations, 1.86 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  397.88387    0  156 6147.00000  397.88387  93.5%     -    2s
+H    0     0                     398.0000000  397.88387  0.03%     -    2s
+
+Explored 0 nodes (7106 simplex iterations) in 2.83 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 398 6147 
+Pool objective bound 398
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.980000000000e+02, best bound 3.980000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 21511 rows, 3000 columns and 452059 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 51 columns
+Presolve time: 0.75s
+Presolved: 21511 rows, 2949 columns, 444263 nonzeros
+Variable types: 0 continuous, 2949 integer (2949 binary)
+Presolved: 2949 rows, 24460 columns, 447212 nonzeros
+
+
+Root relaxation: objective 4.065088e+02, 10079 iterations, 3.17 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  406.50883    0 2045 6147.00000  406.50883  93.4%     -    4s
+H    0     0                     437.0000000  406.50883  6.98%     -    4s
+H    0     0                     428.0000000  406.50883  5.02%     -    4s
+H    0     0                     427.0000000  406.50883  4.80%     -    4s
+H    0     0                     425.0000000  406.51004  4.35%     -    6s
+     0     0  406.61044    0 2045  425.00000  406.61044  4.33%     -    6s
+     0     0  406.61044    0 2045  425.00000  406.61044  4.33%     -   11s
+     0     0  406.62099    0 2045  425.00000  406.62099  4.32%     -   13s
+     0     0  406.75371    0 2044  425.00000  406.75371  4.29%     -   13s
+H    0     0                     411.0000000  406.75371  1.03%     -   17s
+     0     0  409.88845    0 2043  411.00000  409.88845  0.27%     -   17s
+     0     0  409.88845    0 2044  411.00000  409.88845  0.27%     -   18s
+     0     0  409.88845    0 2044  411.00000  409.88845  0.27%     -   18s
+     0     0  409.88845    0 2045  411.00000  409.88845  0.27%     -   19s
+     0     0  409.88845    0 2044  411.00000  409.88845  0.27%     -   19s
+     0     0  409.88845    0 2046  411.00000  409.88845  0.27%     -   21s
+     0     0  409.88845    0 2044  411.00000  409.88845  0.27%     -   21s
+     0     0  409.88845    0 2044  411.00000  409.88845  0.27%     -   22s
+     0     0  409.88845    0 2044  411.00000  409.88845  0.27%     -   23s
+     0     2  409.88845    0 2044  411.00000  409.88845  0.27%     -   24s
+     3     4  409.88845    2 2045  411.00000  409.88845  0.27%  90.3   26s
+    23     4  409.88845    6 2037  411.00000  409.88845  0.27%   374   30s
+    55    11     cutoff   11       411.00000  409.88845  0.27%   372   35s
+   196    21     cutoff   19       411.00000  409.88845  0.27%   186   40s
+
+Cutting planes:
+  Gomory: 3
+  Clique: 20
+  MIR: 6
+  Zero half: 10
+
+Explored 282 nodes (66985 simplex iterations) in 41.89 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 6: 411 425 427 ... 6147
+Pool objective bound 411
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.110000000000e+02, best bound 4.110000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 19502 rows, 3000 columns and 407841 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 50 columns
+Presolve time: 0.69s
+Presolved: 19502 rows, 2950 columns, 401607 nonzeros
+Variable types: 0 continuous, 2950 integer (2950 binary)
+Presolved: 2950 rows, 22452 columns, 404557 nonzeros
+
+
+Root relaxation: objective 4.095444e+02, 12169 iterations, 4.07 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  409.54435    0 2055 6147.00000  409.54435  93.3%     -    4s
+H    0     0                     436.0000000  409.54435  6.07%     -    5s
+H    0     0                     429.0000000  409.54435  4.54%     -    5s
+H    0     0                     416.0000000  409.54435  1.55%     -    5s
+     0     0  409.66098    0 2054  416.00000  409.66098  1.52%     -    7s
+     0     0  410.48710    0 2039  416.00000  410.48710  1.33%     -   10s
+     0     0  411.37815    0 2032  416.00000  411.37815  1.11%     -   13s
+     0     0  411.37815    0 2032  416.00000  411.37815  1.11%     -   13s
+     0     0  412.57981    0 2032  416.00000  412.57981  0.82%     -   15s
+     0     0  412.59845    0 2031  416.00000  412.59845  0.82%     -   16s
+     0     2  412.59845    0 2031  416.00000  412.59845  0.82%     -   18s
+    21    10  413.70400    6 1997  416.00000  413.63121  0.57%   173   20s
+
+Cutting planes:
+  Gomory: 3
+  Zero half: 3
+
+Explored 47 nodes (28756 simplex iterations) in 21.03 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 4: 416 429 436 6147 
+Pool objective bound 416
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.160000000000e+02, best bound 4.160000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 21941 rows, 3000 columns and 460431 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 52 columns
+Presolve time: 0.78s
+Presolved: 21941 rows, 2948 columns, 454148 nonzeros
+Variable types: 0 continuous, 2948 integer (2948 binary)
+Presolved: 2948 rows, 24889 columns, 457096 nonzeros
+
+
+Root relaxation: objective 3.961569e+02, 9118 iterations, 2.87 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  396.15693    0 1854 6147.00000  396.15693  93.6%     -    3s
+H    0     0                     402.0000000  396.15693  1.45%     -    3s
+H    0     0                     398.0000000  396.15693  0.46%     -    3s
+     0     0  396.25636    0 1854  398.00000  396.25636  0.44%     -   16s
+
+Cutting planes:
+  Gomory: 1
+  MIR: 1
+
+Explored 0 nodes (9196 simplex iterations) in 17.19 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 3: 398 402 6147 
+Pool objective bound 398
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.980000000000e+02, best bound 3.980000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 19837 rows, 3000 columns and 424310 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 48 columns
+Presolve time: 0.69s
+Presolved: 19837 rows, 2952 columns, 417411 nonzeros
+Variable types: 0 continuous, 2952 integer (2952 binary)
+Presolved: 2952 rows, 22789 columns, 420363 nonzeros
+
+
+Root relaxation: objective 3.973000e+02, 5637 iterations, 1.21 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  397.30000    0  181 6147.00000  397.30000  93.5%     -    2s
+H    0     0                     398.0000000  397.30000  0.18%     -    2s
+
+Explored 0 nodes (5728 simplex iterations) in 2.26 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 398 6147 
+Pool objective bound 398
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.980000000000e+02, best bound 3.980000000000e+02, gap 0.0000%
+[94, 92, 102, 108, 98, 96, 87, 98, 85, 96]
+[398.0, 411.0, 398.0, 398.0, 398.0, 398.0, 411.0, 416.0, 398.0, 398.0]
+[01;32mconfitao@confilab[00m:[01;34m~/Dropbox/Investigacion/Prueba IIS[00m$ 

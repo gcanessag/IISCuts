@@ -1,0 +1,630 @@
+[01;32mconfitao@confilab[00m:[01;34m~/Documents/Screen[00m$ cd Drio[K[K[K[K[K~[K ~/Dropbox/Investigacion/Prueba/
+[01;32mconfitao@confilab[00m:[01;34m~/Dropbox/Investigacion/Prueba[00m$ python 2bab.py 0 2000 0[C[1@1
+Loading file scp41.txt...
+Loading independent model...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 15042 rows, 3000 columns and 318200 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 48 columns
+Presolve time: 0.61s
+Presolved: 15042 rows, 2952 columns, 314625 nonzeros
+Variable types: 0 continuous, 2952 integer (2952 binary)
+Presolved: 2952 rows, 17994 columns, 317577 nonzeros
+
+
+Root relaxation: objective 3.778734e+02, 7403 iterations, 1.92 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  377.87342    0   84 6147.00000  377.87342  93.9%     -    2s
+H    0     0                     380.0000000  377.87342  0.56%     -    2s
+     0     0  378.25000    0   97  380.00000  378.25000  0.46%     -    3s
+     0     0  378.25000    0   82  380.00000  378.25000  0.46%     -    4s
+     0     0  378.25000    0   93  380.00000  378.25000  0.46%     -    4s
+     0     0     cutoff    0       380.00000  380.00000  0.00%     -    4s
+
+Cutting planes:
+  Gomory: 1
+  Mod-K: 1
+
+Explored 0 nodes (9050 simplex iterations) in 4.39 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 380 6147 
+Pool objective bound 380
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.800000000000e+02, best bound 3.800000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading independent model...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 15302 rows, 3000 columns and 324112 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 53 columns
+Presolve time: 0.58s
+Presolved: 15302 rows, 2947 columns, 318992 nonzeros
+Variable types: 0 continuous, 2947 integer (2947 binary)
+Presolved: 2947 rows, 18249 columns, 321939 nonzeros
+
+
+Root relaxation: objective 3.798400e+02, 7903 iterations, 1.92 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  379.84000    0   78 6147.00000  379.84000  93.8%     -    2s
+H    0     0                     380.0000000  379.84000  0.04%     -    2s
+
+Explored 0 nodes (7913 simplex iterations) in 2.71 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 380 6147 
+Pool objective bound 380
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.800000000000e+02, best bound 3.800000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading independent model...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 14744 rows, 3000 columns and 311389 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 52 columns
+Presolve time: 0.56s
+Presolved: 14744 rows, 2948 columns, 307261 nonzeros
+Variable types: 0 continuous, 2948 integer (2948 binary)
+Presolved: 2948 rows, 17692 columns, 310209 nonzeros
+
+
+Root relaxation: objective 3.764000e+02, 7470 iterations, 1.81 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  376.40000    0  166 6147.00000  376.40000  93.9%     -    2s
+H    0     0                     380.0000000  376.40000  0.95%     -    2s
+     0     0  377.48571    0  114  380.00000  377.48571  0.66%     -    3s
+     0     0  377.48571    0   84  380.00000  377.48571  0.66%     -    4s
+     0     0  377.48571    0  111  380.00000  377.48571  0.66%     -    4s
+     0     0  377.51555    0  112  380.00000  377.51555  0.65%     -    4s
+     0     0  378.51442    0  228  380.00000  378.51442  0.39%     -    4s
+     0     0  378.56358    0  100  380.00000  378.56358  0.38%     -    4s
+     0     0  378.85846    0  109  380.00000  378.85846  0.30%     -    5s
+     0     0     cutoff    0       380.00000  380.00000  0.00%     -    5s
+
+Cutting planes:
+  Gomory: 1
+  Mod-K: 3
+
+Explored 0 nodes (9921 simplex iterations) in 5.13 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 3: 380 380 6147 
+Pool objective bound 380
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.800000000000e+02, best bound 3.800000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading independent model...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 15363 rows, 3000 columns and 324807 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 52 columns
+Presolve time: 0.59s
+Presolved: 15363 rows, 2948 columns, 320215 nonzeros
+Variable types: 0 continuous, 2948 integer (2948 binary)
+Presolved: 2948 rows, 18311 columns, 323163 nonzeros
+
+
+Root relaxation: objective 3.746835e+02, 7746 iterations, 1.94 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  374.68354    0   84 6147.00000  374.68354  93.9%     -    2s
+H    0     0                     380.0000000  374.68354  1.40%     -    2s
+     0     0  375.76101    0  100  380.00000  375.76101  1.12%     -    3s
+     0     0  375.76101    0   82  380.00000  375.76101  1.12%     -    4s
+     0     0  375.76101    0   99  380.00000  375.76101  1.12%     -    4s
+     0     0  375.76923    0  101  380.00000  375.76923  1.11%     -    4s
+     0     0  377.36156    0   81  380.00000  377.36156  0.69%     -    5s
+     0     0  377.36156    0   84  380.00000  377.36156  0.69%     -    5s
+     0     0  377.89776    0  252  380.00000  377.89776  0.55%     -    5s
+     0     0  377.97152    0  140  380.00000  377.97152  0.53%     -    5s
+     0     2  377.97152    0  140  380.00000  377.97152  0.53%     -    5s
+     3     4  378.78860    2 1290  380.00000  378.30986  0.44%   569   12s
+
+Cutting planes:
+  Gomory: 1
+  Zero half: 2
+  Mod-K: 1
+
+Explored 13 nodes (14514 simplex iterations) in 12.54 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 380 6147 
+Pool objective bound 380
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.800000000000e+02, best bound 3.800000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading independent model...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 14679 rows, 3000 columns and 311397 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 52 columns
+Presolve time: 0.57s
+Presolved: 14679 rows, 2948 columns, 306954 nonzeros
+Variable types: 0 continuous, 2948 integer (2948 binary)
+
+Root relaxation: objective 3.775082e+02, 2559 iterations, 0.73 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  377.50820    0  187 6147.00000  377.50820  93.9%     -    1s
+H    0     0                     380.0000000  377.50820  0.66%     -    1s
+     0     0  377.75269    0  102  380.00000  377.75269  0.59%     -    2s
+     0     0  377.75269    0   96  380.00000  377.75269  0.59%     -    3s
+     0     0  377.83917    0   99  380.00000  377.83917  0.57%     -    3s
+     0     0  378.66753    0   86  380.00000  378.66753  0.35%     -    3s
+     0     0  378.69678    0   86  380.00000  378.69678  0.34%     -    3s
+     0     0  378.69702    0  201  380.00000  378.69702  0.34%     -    3s
+     0     0     cutoff    0       380.00000  380.00000  0.00%     -    3s
+
+Cutting planes:
+  Gomory: 2
+  MIR: 1
+  Zero half: 1
+  Mod-K: 2
+
+Explored 0 nodes (4504 simplex iterations) in 3.51 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 3: 380 380 6147 
+Pool objective bound 380
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.800000000000e+02, best bound 3.800000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading independent model...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 14968 rows, 3000 columns and 318353 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 53 columns
+Presolve time: 0.57s
+Presolved: 14968 rows, 2947 columns, 314578 nonzeros
+Variable types: 0 continuous, 2947 integer (2947 binary)
+Presolved: 2947 rows, 17915 columns, 317525 nonzeros
+
+
+Root relaxation: objective 3.774588e+02, 7680 iterations, 1.89 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  377.45882    0   86 6147.00000  377.45882  93.9%     -    2s
+H    0     0                     380.0000000  377.45882  0.67%     -    2s
+     0     0  377.61446    0   92  380.00000  377.61446  0.63%     -    3s
+     0     0  377.61446    0   88  380.00000  377.61446  0.63%     -    3s
+     0     0  377.98131    0  109  380.00000  377.98131  0.53%     -    4s
+     0     0  378.02920    0  110  380.00000  378.02920  0.52%     -    4s
+     0     0  378.97794    0  248  380.00000  378.97794  0.27%     -    4s
+
+Cutting planes:
+  Gomory: 1
+  Mod-K: 2
+
+Explored 0 nodes (9136 simplex iterations) in 4.19 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 3: 380 380 6147 
+Pool objective bound 380
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.800000000000e+02, best bound 3.800000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading independent model...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 14612 rows, 3000 columns and 307076 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 51 columns
+Presolve time: 0.57s
+Presolved: 14612 rows, 2949 columns, 303282 nonzeros
+Variable types: 0 continuous, 2949 integer (2949 binary)
+
+Root relaxation: objective 3.802118e+02, 1492 iterations, 0.44 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  380.21176    0   86 6147.00000  380.21176  93.8%     -    1s
+H    0     0                     398.0000000  380.21176  4.47%     -    1s
+     0     0  380.36627    0  225  398.00000  380.36627  4.43%     -    1s
+     0     0  380.36627    0   86  398.00000  380.36627  4.43%     -    4s
+     0     0  380.36627    0  233  398.00000  380.36627  4.43%     -    4s
+     0     0  380.46023    0  233  398.00000  380.46023  4.41%     -    5s
+     0     0  380.55670    0  235  398.00000  380.55670  4.38%     -    5s
+     0     0  380.61801    0  235  398.00000  380.61801  4.37%     -    5s
+     0     0  380.61801    0  236  398.00000  380.61801  4.37%     -    6s
+     0     0  380.61801    0  237  398.00000  380.61801  4.37%     -    6s
+     0     0  380.64702    0  237  398.00000  380.64702  4.36%     -    6s
+     0     0  380.65487    0  237  398.00000  380.65487  4.36%     -    7s
+     0     0  380.67925    0  237  398.00000  380.67925  4.35%     -    7s
+     0     0  380.67925    0  237  398.00000  380.67925  4.35%     -    7s
+     0     0  383.03529    0  237  398.00000  383.03529  3.76%     -   10s
+     0     2  383.03529    0  237  398.00000  383.03529  3.76%     -   10s
+    10     8  392.21918    6  302  398.00000  383.03529  3.76%   210   20s
+    99    90  394.67010   15  100  398.00000  388.22078  2.46%   107   94s
+   114    99 infeasible   15       398.00000  388.22078  2.46%   107   95s
+   551   457  392.06452   17   96  398.00000  388.30189  2.44%  51.0  101s
+   656   499  392.28571   26   85  398.00000  388.30189  2.44%  57.8  105s
+   813   642  393.20000   50   61  398.00000  388.30189  2.44%  52.7  110s
+  1469  1058  393.57746   49  225  398.00000  388.36364  2.42%  49.4  115s
+  1476  1063  395.63265   72  236  398.00000  388.36364  2.42%  49.2  120s
+  1479  1068  388.36364   12  237  398.00000  388.36364  2.42%  56.5  130s
+  1507  1080     cutoff   16       398.00000  388.36364  2.42%  59.4  135s
+  1565  1101  388.36364   19  102  398.00000  388.36364  2.42%  60.3  159s
+  1584  1112  394.93151   19  305  398.00000  388.36364  2.42%  61.5  191s
+  1647  1127  388.36364   23  104  398.00000  388.36364  2.42%  65.0  195s
+  1899  1228     cutoff   23       398.00000  388.36364  2.42%  68.2  201s
+  2244  1366  394.57895   59   58  398.00000  388.41304  2.41%  67.5  205s
+  2312  1383  395.43243   79   38  398.00000  388.41304  2.41%  67.4  210s
+  2673  1495  391.70297   21  102  398.00000  388.93137  2.28%  67.6  215s
+  2922  1530  396.09434   25  115  398.00000  389.08642  2.24%  71.8  220s
+  3145  1625  394.45263   30   96  398.00000  389.10000  2.24%  74.9  225s
+  3552  1769  394.64286   41   85  398.00000  389.28736  2.19%  78.6  238s
+  3570  1770  395.67857   41  115  398.00000  389.45588  2.15%  79.5  240s
+  3852  1856  394.86486   51   75  398.00000  389.45588  2.15%  85.2  245s
+  4056  1918  394.94366   54   72  398.00000  389.45588  2.15%  83.6  284s
+  4227  1906  394.97143   55   71  398.00000  389.45588  2.15%  82.8  289s
+  4343  1917  395.15625   61   65  398.00000  389.45588  2.15%  82.4  291s
+  4652  1998  394.93103   44  118  398.00000  389.93137  2.03%  82.3  296s
+  4974  2217  395.80531   26  116  398.00000  390.08511  1.99%  82.4  300s
+  5665  2589  395.65517   39  118  398.00000  390.25000  1.95%  82.2  306s
+  6227  2962 infeasible   42       398.00000  390.52941  1.88%  81.2  313s
+  6410  3058  396.47423   46   98  398.00000  390.54639  1.87%  80.9  315s
+  7309  3705  396.20690   90   32  398.00000  390.81250  1.81%  76.7  320s
+  8090  4188  395.57895   35   96  398.00000  390.87500  1.79%  75.1  326s
+  8789  4638  395.78571   46   85  398.00000  390.95652  1.77%  74.8  331s
+  9115  4824     cutoff   66       398.00000  390.95652  1.77%  75.2  335s
+  9778  5167     cutoff   29       398.00000  391.12821  1.73%  75.1  342s
+ 10187  5314  396.02703   35  113  398.00000  391.19048  1.71%  75.2  345s
+ 10950  5602  396.37931   37  118  398.00000  391.25000  1.70%  76.1  352s
+ 11463  5846  396.51724   39  118  398.00000  391.35616  1.67%  76.0  356s
+ 11805  5943     cutoff   41       398.00000  391.42553  1.65%  76.1  364s
+ 12256  6112  396.79310   43  118  398.00000  391.50000  1.63%  76.5  368s
+ 12679  6277  396.86207   44  118  398.00000  391.58065  1.61%  77.4  373s
+ 13105  6532  391.97192   19  661  398.00000  391.62000  1.60%  78.5  381s
+ 13135  6495  392.25641   21  119  398.00000  391.67273  1.59%  78.9  385s
+ 13509  6599     cutoff   38       398.00000  391.73913  1.57%  80.4  390s
+ 13783  6581  396.65517   42  118  398.00000  391.86957  1.54%  82.5  396s
+ 14096  6682  396.01869   25  113  398.00000  392.01980  1.50%  84.7  401s
+ 14377  6713     cutoff   35       398.00000  392.08140  1.49%  86.9  406s
+ 14648  6749  396.62069   27  118  398.00000  392.25843  1.44%  89.5  413s
+ 14727  6700 infeasible   53       398.00000  392.26923  1.44%  91.0  418s
+ 15216  6961  392.85149   24  204  398.00000  392.31884  1.43%  92.0  424s
+ 15755  7212  395.26316   31   96  398.00000  392.39506  1.41%  92.5  439s
+ 16411  7634     cutoff   76       398.00000  392.50382  1.38%  91.7  445s
+ 17238  8055  394.68142   25  114  398.00000  392.64103  1.35%  91.6  460s
+ 18044  8545  393.73469   38  298  398.00000  392.79775  1.31%  91.1  467s
+ 19102  9198  396.30028   32  715  398.00000  392.84314  1.30%  89.8  473s
+ 19598  9425     cutoff   56       398.00000  392.95238  1.27%  91.1  479s
+ 20108  9683  394.80263   29  153  398.00000  393.02381  1.25%  92.3  486s
+ 20530  9853  396.31034   35  972  398.00000  393.05882  1.24%  93.9  492s
+ 20954  9959 infeasible   46       398.00000  393.08661  1.23%  95.7  499s
+ 21684 10206  396.17327   30  204  398.00000  393.11340  1.23%  96.1  506s
+ 22414 10483  396.21569   33  310  398.00000  393.17355  1.21%  96.7  526s
+ 22545 10496  395.53635   49  630  398.00000  393.18519  1.21%  96.8  534s
+ 23322 10756  396.02667   40  151  398.00000  393.21212  1.20%  97.1  542s
+ 24001 10928  393.23711   29   98  398.00000  393.23711  1.20%  98.2  550s
+ 24770 11129  394.68500   54  202  398.00000  393.26471  1.19%  98.5  557s
+ 25561 11482  394.16062   32 1583  398.00000  393.29032  1.18%  98.9  566s
+ 26136 11573 infeasible   40       398.00000  393.32258  1.18%   100  574s
+ 27157 12052  395.04971   42 1414  398.00000  393.34804  1.17%   100  583s
+ 27920 12332  396.43206   40  291  398.00000  393.36957  1.16%   100  591s
+ 28895 12806  395.63803   33  555  398.00000  393.39130  1.16%   100  600s
+ 29662 13177  396.06250   58  225  398.00000  393.40782  1.15%   101  777s
+ 29665 13179  396.92727   68  305  398.00000  393.40782  1.15%   101  780s
+ 29668 13181  396.59184   36  527  398.00000  393.40782  1.15%   101  785s
+ 29670 13182  393.50000   59 1888  398.00000  393.40782  1.15%   101  791s
+ 29672 13184  395.74474   32 1885  398.00000  393.40782  1.15%   101  798s
+ 29674 13185  393.57143   28 1883  398.00000  393.40782  1.15%   101  804s
+ 29675 13186  396.85937   44 1898  398.00000  393.40782  1.15%   101  805s
+ 29676 13186  394.20690   77 1898  398.00000  393.40782  1.15%   101  813s
+ 29678 13188  394.76684   59 1848  398.00000  393.40782  1.15%   101  822s
+ 29679 13188  394.85714   76 1848  398.00000  393.40782  1.15%   101  829s
+ 29680 13189  394.24000   40 1847  398.00000  393.40782  1.15%   101  836s
+ 29682 13190  396.06250   58 1849  398.00000  393.40782  1.15%   101  843s
+ 29684 13192  396.09091   86 1849  398.00000  393.40782  1.15%   101  855s
+ 29686 13193  395.20270   43 1847  398.00000  393.66667  1.09%   101  861s
+ 29687 13194  394.83594   63 1849  398.00000  394.02466  1.00%   101  870s
+ 29688 13194  396.59184   36 1848  398.00000  394.52996  0.87%   101  878s
+ 29690 13196  394.90909   59 1876  398.00000  394.90909  0.78%   101  886s
+ 29692 13197  395.74474   32 1848  398.00000  394.90909  0.78%   101  891s
+ 29694 13198  395.06522   28 1899  398.00000  395.06522  0.74%   101  897s
+ 29696 13200  395.22472   77 1900  398.00000  395.22472  0.70%   101  903s
+ 29698 13201  395.27473   59 1901  398.00000  395.27473  0.68%   101  908s
+ 29700 13202  395.68421   40 1850  398.00000  395.68421  0.58%   101  913s
+ 29702 13204  396.06250   58 1900  398.00000  396.05047  0.49%   101  921s
+ 29704 13205  396.52811   86 1852  398.00000  396.52811  0.37%   101  948s
+ 29705 13206  396.92727   68 1852  398.00000  396.52811  0.37%   101  953s
+ 29706 13206  396.52811   43 1852  398.00000  396.52811  0.37%   101  956s
+ 29707 13210  396.52811   26  509  398.00000  396.52811  0.37%   101 1067s
+ 29709 13212  396.52811   27 1477  398.00000  396.52811  0.37%   101 1164s
+ 29713 13215  396.52811   28 1475  398.00000  396.52811  0.37%   101 1170s
+ 29720 13212  396.52811   29 1771  398.00000  396.52811  0.37%   101 1176s
+ 29776 13215  396.92784   34   98  398.00000  396.52811  0.37%   101 1180s
+ 29826 13214  396.96774   38   94  398.00000  396.52811  0.37%   101 1186s
+ 29954 13258  396.52811   40 1071  398.00000  396.52811  0.37%   101 1190s
+ 30082 13301  396.52811   37  365  398.00000  396.52811  0.37%   101 1195s
+ 30227 13311  396.52811   41  230  398.00000  396.52811  0.37%   102 1200s
+ 30343 13300  396.52811   45  433  398.00000  396.52811  0.37%   102 1205s
+ 30521 13292  396.52811   53 1464  398.00000  396.52811  0.37%   102 1210s
+ 30645 13267  396.52811   69 1419  398.00000  396.52811  0.37%   103 1215s
+ 30834 13143  396.65217   42  120  398.00000  396.52811  0.37%   103 1222s
+ 30996 13071 infeasible   56       398.00000  396.52811  0.37%   103 1237s
+ 31134 13018     cutoff   51       398.00000  396.52811  0.37%   104 1240s
+
+Cutting planes:
+  Gomory: 36
+  Flow cover: 60
+  Inf proof: 1
+  Zero half: 31
+
+Explored 31528 nodes (3279739 simplex iterations) in 1243.24 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 398 6147 
+Pool objective bound 398
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.980000000000e+02, best bound 3.980000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading independent model...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 14498 rows, 3000 columns and 304386 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 46 columns
+Presolve time: 0.53s
+Presolved: 14498 rows, 2954 columns, 300999 nonzeros
+Variable types: 0 continuous, 2954 integer (2954 binary)
+
+Root relaxation: objective 3.786988e+02, 2349 iterations, 0.66 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  378.69880    0   88 6147.00000  378.69880  93.8%     -    1s
+H    0     0                     380.0000000  378.69880  0.34%     -    1s
+     0     0     cutoff    0       380.00000  379.00038  0.26%     -    1s
+
+Cutting planes:
+  Zero half: 1
+
+Explored 0 nodes (2803 simplex iterations) in 1.92 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 380 6147 
+Pool objective bound 380
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.800000000000e+02, best bound 3.800000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading independent model...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 15343 rows, 3000 columns and 323559 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 53 columns
+Presolve time: 0.58s
+Presolved: 15343 rows, 2947 columns, 318845 nonzeros
+Variable types: 0 continuous, 2947 integer (2947 binary)
+Presolved: 2947 rows, 18290 columns, 321792 nonzeros
+
+
+Root relaxation: objective 3.774091e+02, 7911 iterations, 1.78 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  377.40909    0   89 6147.00000  377.40909  93.9%     -    2s
+H    0     0                     380.0000000  377.40909  0.68%     -    2s
+     0     0  378.06637    0  238  380.00000  378.06637  0.51%     -    3s
+     0     0  378.06637    0  234  380.00000  378.06637  0.51%     -    4s
+     0     0  378.79365    0  128  380.00000  378.79365  0.32%     -    4s
+     0     2  378.79365    0  128  380.00000  378.79365  0.32%     -    4s
+     1     2  379.00000    1  115  380.00000  378.81529  0.31%  99.0    5s
+
+Explored 4 nodes (10643 simplex iterations) in 5.10 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 3: 380 380 6147 
+Pool objective bound 380
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.800000000000e+02, best bound 3.800000000000e+02, gap 0.0000%
+Loading file scp41.txt...
+Loading independent model...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 15591 rows, 3000 columns and 332107 nonzeros
+Variable types: 0 continuous, 3000 integer (3000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective 6147
+Presolve removed 0 rows and 52 columns
+Presolve time: 0.59s
+Presolved: 15591 rows, 2948 columns, 327903 nonzeros
+Variable types: 0 continuous, 2948 integer (2948 binary)
+Presolved: 2948 rows, 18539 columns, 330851 nonzeros
+
+
+Root relaxation: objective 3.797073e+02, 8147 iterations, 1.96 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  379.70732    0   85 6147.00000  379.70732  93.8%     -    2s
+H    0     0                     380.0000000  379.70732  0.08%     -    2s
+
+Explored 0 nodes (8150 simplex iterations) in 2.76 seconds
+Thread count was 16 (of 16 available processors)
+
+Solution count 2: 380 6147 
+Pool objective bound 380
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.800000000000e+02, best bound 3.800000000000e+02, gap 0.0000%
+[85, 84, 88, 84, 87, 87, 88, 89, 84, 83]
+[380.0, 380.0, 380.0, 380.0, 380.0, 380.0, 398.0, 380.0, 380.0, 380.0]
+[01;32mconfitao@confilab[00m:[01;34m~/Dropbox/Investigacion/Prueba[00m$ exit
+[01;32mconfitao@confilab[00m:[01;34m~/Documents/Screen[00m$ python 2bab.py 10 2000 0[K1 1
+python: can't open file '2bab.py': [Errno 2] No such file or directory
+[01;32mconfitao@confilab[00m:[01;34m~/Documents/Screen[00m$ python 2bab.py 10 2000 1 1[Kcd ~/Dropbox/Investigacion/Prueba/
+[01;32mconfitao@confilab[00m:[01;34m~/Dropbox/Investigacion/Prueba[00m$ cd ~/Dropbox/Investigacion/Prueba/[8Ppython 2bab.py 10 2000 1 1
+Loading file scp41.txt...
+Loading independent model...
+Loading PSP...
+^CTraceback (most recent call last):
+  File "2bab.py", line 178, in <module>
+    psp.addConstr(quicksum(x2[j] for (g,j) in tuplelist(T).select(i,'*')) >= 1, 's%3.0f,%s' % (i,n))
+KeyboardInterrupt
+[01;32mconfitao@confilab[00m:[01;34m~/Dropbox/Investigacion/Prueba[00m$ ^C
+[01;32mconfitao@confilab[00m:[01;34m~/Dropbox/Investigacion/Prueba[00m$ ^C
+[01;32mconfitao@confilab[00m:[01;34m~/Dropbox/Investigacion/Prueba[00m$ [01;32mconfitao@confilab[00m:[01;34m~/Documents/Screen[00m$ python 2bab.py 10 2000 0cd ~/Dropbox/Investigacion/Prueba/[10Ppython 2bab.py 10 2000 0cd ~/Dropbox/Investigacion/Prueba/
+[01;32mconfitao@confilab[00m:[01;34m~/Dropbox/Investigacion/Prueba[00m$ cd ~/Dropbox/Investigacion/Prueba/[10Ppython 2bab.py 10 2000 0
+Loading file scp41.txt...
+Loading independent model...
+Loading model...
+Changed value of parameter logfile to 
+   Prev: gurobi.log  Default: 
+Changed value of parameter seed to 1
+   Prev: 0  Min: 0  Max: 2000000000  Default: 0
+Changed value of parameter timelimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+exit
+^CTraceback (most recent call last):
+  File "2bab.py", line 212, in <module>
+    model.addConstr(quicksum(x[j] for (g,j) in tuplelist(T).select(i,'*')) + z[n] >= 1, 's%3.0f,%s' % (i,n))
+KeyboardInterrupt
+[01;32mconfitao@confilab[00m:[01;34m~/Dropbox/Investigacion/Prueba[00m$ ^C
+[01;32mconfitao@confilab[00m:[01;34m~/Dropbox/Investigacion/Prueba[00m$ ^C
+[01;32mconfitao@confilab[00m:[01;34m~/Dropbox/Investigacion/Prueba[00m$ ^C
+[01;32mconfitao@confilab[00m:[01;34m~/Dropbox/Investigacion/Prueba[00m$ ^C
+[01;32mconfitao@confilab[00m:[01;34m~/Dropbox/Investigacion/Prueba[00m$ exit
